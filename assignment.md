@@ -15,6 +15,10 @@ Your answer here
 3. What is the class name of the third element and the content of the css?
 ```
 Your answer here
+
+Class name: elementThree
+Content of elementThree in {}: 
+
       .elementThree {
         padding: 10px;
         background-color: aquamarine;
@@ -23,29 +27,16 @@ Your answer here
         border-radius: 10px;
       }
 
+
 4. What is the css selector of the fourth element?
 ```
 Your answer here
-div {
-    margin: 50px;
-}
+div and 
+div: nth-child(6)
 
 5. What is the code you use to keep the blue box within the purple?
 ```
-Your answer here
-<iframe id="sb__open-sandbox74" style="
-      position: fixed;
-      margin: 0;
-      padding: 0;
-      bottom: 16px;
-      right: 16px;
-      border: none;
-      width: 118px;
-      height: 36px;
-      z-index: 9999999999999;
-    "></iframe>
-
-> hint: you should apply box-sizing property to the `.child` class. Make the changes on the developer's tool to see immediate UI change.
+remove the loc "width: 100%;" so that default properties will be applied
 
 
 
